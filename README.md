@@ -1,5 +1,5 @@
-# Hello,I am Mahendra Reddy Kuncha
-### Welcome to my Virtusa Traning Repo
+<h1 align=center>Hello,I am Mahendra Reddy Kuncha<h1>
+<h3 align=center> Welcome to my Virtusa Traning Repo<h3>
 ---
 # what this rapo contains?
 * KARE Marks calculator
