@@ -1,0 +1,102 @@
+body{   
+    background: #eee;  
+} 
+
+/* Dropdown Button */
+.T {
+    background-color: #3498DB;
+    color: white;
+    padding: 100px;
+    width: 350px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 320px;
+    top: 80px;
+    border-radius: 10px;  
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+  /* Dropdown button on hover & focus */
+  .T:hover, .T:focus {
+    background-color: #2980B9;
+  }
+
+  .L {
+    background-color: #3498DB;
+    color: white;
+    padding: 100px;
+    width: 370px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    RIGHT: 320px;
+    top: 80px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+  /* Dropdown button on hover & focus */
+  .L:hover, .L:focus {
+    background-color: #2980B9;
+  }
+
+  .IC {
+    background-color: #3498DB;
+    color: white;
+    padding: 100px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 320px;
+    bottom: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+  /* Dropdown button on hover & focus */
+  .IC:hover, .IC:focus {
+    background-color: #2980B9;
+  }
+
+  .TP {
+    background-color: #3498DB;
+    color: white;
+    padding: 100px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 320px;
+    bottom: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+  /* Dropdown button on hover & focus */
+  .TP:hover, .TP:focus {
+    background-color: #2980B9;
+  }
+
+#frm{   
+    width:25%;  
+    border-radius: 20px;  
+    margin: 50px auto;  
+    background: white;  
+    padding: 295px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+}
+
+footer {
+    text-align: left;
+    padding: 2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: #3498DB;
+    color: white;
+  }

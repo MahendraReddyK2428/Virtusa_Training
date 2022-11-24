@@ -1,0 +1,23 @@
+<html>  
+<head>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src="Markscal.js"></script>   
+</head>  
+<body>  
+    <div id = "frm">  
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Course Type</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#">Theory Course(T)</a>
+              <a href="#">Laboratory Course(L)</a>
+              <a href="#">Integrated Course(IC)</a>
+              <a href="#">Theory with practile(TP)</a>
+            </div>
+            <footer>
+                <p>KUNCHA MAHENDRA REDDY, ECE, KLU.<br>
+              </footer>
+          </div>
+          
+    </div>   
+</body>     
+</html>  

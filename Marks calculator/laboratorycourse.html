@@ -1,0 +1,37 @@
+<html>  
+<head>
+    <title>KGA-Laboratory Course</title>
+    <link rel = "stylesheet" type = "text/css" href = "integratedcourse.css">
+</head>  
+<body>  
+    <div id = "frm"> 
+        <div class=pagename>
+            <p>Laboratory course(LC)</p>
+        </div>
+        <script>
+            function LC()
+            {
+                var i=document.getElementById('InternalLab').value;
+                var e=document.getElementById('ExternalLab').value;
+                if(i>100||e>100){
+                    alert("Please enter valid marks");
+                }  
+                else{     
+                document.getElementById('TotalMarks').innerHTML=((i/2)+(e/2));
+                }                
+            }
+        </script>
+            <div class=marks>
+            <h3>Marks from SIS</h3> 
+            Internal Lab: <input type="number" id="InternalLab"><br><br>
+            External Lab: <input type="number" id="ExternalLab"><br><br>
+            <input type="submit" value="Calculate" onclick="return LC()" class="cal"><br><br><br><br><br><br><br><br><br><br><br><br>
+            <b>Total Marks:</b><br><br>
+            <span id="TotalMarks"></span>
+            </div>
+        <footer>
+            <p>KUNCHA MAHENDRA REDDY, ECE, KARE.<br>
+        </footer>
+    </div>   
+</body>     
+</html>  

@@ -1,0 +1,41 @@
+<html>  
+<head>
+    <title>KGA-Theory Course</title>
+    <link rel = "stylesheet" type = "text/css" href = "integratedcourse.css">
+</head>  
+<body>  
+    <div id = "frm"> 
+        <div class=pagename>
+            <p>Theory course(TC)</p>
+        </div>
+        <script>
+            function TC()
+            {
+                var o=document.getElementById('sone').value;
+                var t=document.getElementById('stwo').value;
+                var a=document.getElementById('assignment').value;
+                var s=document.getElementById('semester').value;
+                if(o>100||t>100||a>100||s>100){
+                    alert("Please enter valid marks");
+                }  
+                else{     
+                document.getElementById('TotalMarks').innerHTML=((o*17.5/100)+(t*17.5/100)+(a*15/100)+(s*50/100));
+                }                
+            }
+        </script>
+            <div class=marks>
+            <h3>Marks from SIS</h3> 
+            Sessional-1: <input type="number" id="sone"><br><br>
+            Sessional-2: <input type="number" id="stwo"><br><br>
+            Asignment: <input type="number" id="assignment"><br><br>
+            End Semester: <input type="number" id="semester"><br><br>
+            <input type="submit" value="Calculate" onclick="return TC()" class="cal"><br><br><br><br><br><br><br>
+            <b>Total Marks:</b><br><br>
+            <span id="TotalMarks"></span>
+            </div>
+        <footer>
+            <p>KUNCHA MAHENDRA REDDY, ECE, KARE.<br>
+        </footer>
+</div>   
+</body>     
+</html>  

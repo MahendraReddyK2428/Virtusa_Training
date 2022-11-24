@@ -1,0 +1,63 @@
+body{   
+    background: #eee;  
+} 
+.marks{
+    position: fixed;
+    left: 600px;
+    top: 130px;
+
+}
+
+.cal {
+    background-color: #3498DB;
+    color: white;
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    left: 600px;
+    top: 430px;
+    border-radius: 10px;  
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+  /* Dropdown button on hover & focus */
+  .cal:hover, .T:focus {
+    background-color: #2980B9;
+}
+
+#frm{   
+    width:25%;  
+    border-radius: 20px;  
+    margin: 50px auto;  
+    background: white;  
+    padding: 285px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;  
+} 
+
+.pagename {
+    background-color: #3498DB;
+    text-align: center;
+    color: white;
+    width:942;
+    padding: 5px;
+    font-size: 17px;
+    position: fixed;
+    left: 292px;
+    top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}    
+
+footer {
+    text-align: left;
+    padding: 2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width:100%;
+    background-color: #3498DB;
+    color: white;
+  }

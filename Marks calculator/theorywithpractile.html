@@ -1,0 +1,45 @@
+<html>  
+<head>
+    <title>KGA-Theory with Practile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" type = "text/css" href = "integratedcourse.css">
+</head>  
+<body>  
+    <div id = "frm">
+        <div class=pagename>
+            <p>Theory with Practile(TP)</p>
+        </div> 
+        <script>
+            function TP()
+            {
+                var o=document.getElementById('sone').value;
+                var t=document.getElementById('stwo').value;
+                var a=document.getElementById('assignment').value;
+                var i=document.getElementById('internal').value;
+                var s=document.getElementById('semester').value;
+                if(o>100||t>100||a>100||i>100||s>100){
+                    alert("Please enter valid marks");
+                }  
+                else{     
+                document.getElementById('TotalMarks').innerHTML=((o*10/100)+(t*10/100)+(a*15/100)+(i*15/100)+(s*50/100));
+                }                
+            }
+        </script>
+            <div class=marks>
+            <h3>Marks from SIS</h3> 
+            Sessional-1: <input type="number" id="sone"><br><br>
+            Sessional-2: <input type="number" id="stwo"><br><br>
+            Asignment: <input type="number" id="assignment"><br><br>
+            Internal Lab: <input type="number" id="internal"><br><br>
+            End Semester: <input type="number" id="semester"><br><br>
+            <input type="submit" value="Calculate" onclick="return TP()" class="cal"><br><br><br><br><br>
+            <b>Total Marks:</b><br><br>
+            <span id="TotalMarks"></span> 
+            <footer>
+                <p>KUNCHA MAHENDRA REDDY, ECE, KARE.<br>
+              </footer>
+          </div>
+          
+    </div>   
+</body>     
+</html>  
