@@ -6,3 +6,6 @@
 * Java Practice codes
 * tic-tac-toe using JAVA
 
+![image](https://user-images.githubusercontent.com/118844400/203827451-3e5a977e-eeeb-4cc9-9da6-455061419cf3.png)
+
+
